@@ -54,7 +54,7 @@ struct ObservedSpan {
  */
 struct TraceResponse {
     1: optional ObservedSpan span
-    2: optional TraceResponse downstream
+    2: optional TraceResponse &downstream
     3: required string notImplementedError
 }
 
