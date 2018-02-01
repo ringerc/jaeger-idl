@@ -25,7 +25,7 @@ struct Downstream {
     3: required string host
     4: required string port
     5: required Transport transport
-    6: optional Downstream downstream
+    6: optional Downstream &downstream
 }
 
 struct StartTraceRequest {
